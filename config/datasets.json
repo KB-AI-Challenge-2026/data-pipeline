@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "datasets": [
+    {
+      "dataset_key": "71301",
+      "display_name": "OCR 데이터(금융 및 물류)",
+      "directory_hint": "finance ocr",
+      "access_status": "DOWNLOADED_BY_AUTHORIZED_USER",
+      "reuse_terms_status": "REVIEW_REQUIRED",
+      "allowed_pipeline_use": [
+        "LOCAL_STRUCTURE_AUDIT",
+        "LOCAL_OCR_EVALUATION"
+      ],
+      "external_model_prompt_use": "PROHIBITED"
+    },
+    {
+      "dataset_key": "129",
+      "display_name": "한국어-중국어 번역 말뭉치(사회과학)",
+      "directory_hint": "중국어 번역 말뭉치",
+      "access_status": "DOWNLOADED_BY_AUTHORIZED_USER",
+      "reuse_terms_status": "REVIEW_REQUIRED",
+      "allowed_pipeline_use": [
+        "LOCAL_STRUCTURE_AUDIT",
+        "LOCAL_NUMBER_PRESERVATION_EVALUATION"
+      ],
+      "external_model_prompt_use": "PROHIBITED"
+    },
+    {
+      "dataset_key": "71672",
+      "display_name": "생성형 AI 베트남어 말뭉치",
+      "directory_hint": "베트남어 말뭉치",
+      "access_status": "DOWNLOADED_BY_AUTHORIZED_USER",
+      "reuse_terms_status": "REVIEW_REQUIRED",
+      "allowed_pipeline_use": [
+        "LOCAL_STRUCTURE_AUDIT",
+        "LOCAL_LANGUAGE_REVIEW_CANDIDATE_SELECTION"
+      ],
+      "external_model_prompt_use": "PROHIBITED"
+    }
+  ]
+}
