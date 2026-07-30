@@ -52,4 +52,4 @@ def aihub_dataset_governance():
     publish(audit.expand(dataset=discover()))
 
 
-aihub_dataset_governance()
+aihub_dataset_governance_dag = aihub_dataset_governance()
